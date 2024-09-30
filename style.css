@@ -28,8 +28,10 @@ header h1 {
 
 .sections {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+  height: 100vh; /* Set the height to the full viewport height */
 }
 
 section {
