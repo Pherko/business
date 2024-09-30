@@ -3,14 +3,14 @@ body {
   background-color: #f2f2f2;
 }
 
-header {
+.header {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-nav ul {
+.nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -18,39 +18,55 @@ nav ul {
   justify-content: space-between;
 }
 
-nav li {
+.nav-list li {
   margin-right: 20px;
 }
 
-nav a {
+.nav-list a {
   color: #fff;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav-list a:hover {
   color: #ccc;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-section {
+.firstsection {
   background-color: #fff;
   padding: 20px;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.firstHalf {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-big {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-button {
+.text-small {
+  font-size: 16px;
+}
+
+.background {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.rightnav {
+  float: right;
+}
+
+.btn {
   background-color: #333;
   color: #fff;
   border: none;
@@ -59,14 +75,10 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   background-color: #444;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  clear: both;
+.text-footer {
+  font-size: 16px;
 }
