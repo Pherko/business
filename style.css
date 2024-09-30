@@ -22,16 +22,17 @@ header h1 {
 .sections {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 20px;
   max-width: 100%;
 }
 
 section {
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  max-width: calc(33.33% - 20px);
+  max-width: calc(30% - 40px);
+  height: 300px; /* Increased section height */
 }
 
 section h2 {
@@ -59,13 +60,14 @@ section h2 {
 footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   clear: both;
   margin-top: auto;
   position: fixed;
   bottom: 0;
-  max-width: 100%;
+  width: 100%; /* Full-width footer */
+  left: 0; /* Align footer to the left */
 }
 
 footer p {
@@ -80,6 +82,7 @@ footer p {
   }
   section {
     max-width: 100%;
+    height: auto; /* Reset section height on smaller screens */
   }
 }
 
