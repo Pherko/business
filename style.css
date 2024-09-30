@@ -19,7 +19,7 @@ header h1 {
 .sections {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 
 section {
