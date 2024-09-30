@@ -59,6 +59,9 @@ footer {
   text-align: center;
   clear: both;
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
