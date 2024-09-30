@@ -1,60 +1,31 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #33ccff, #ff99cc);
+  margin: 0;
+  padding: 0;
 }
 
-.header {
+header {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-.nav-list {
-  list-style: none;
+header h1 {
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
-.nav-list li {
-  margin-right: 20px;
-}
-
-.nav-list a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-list a:hover {
-  color: #ccc;
-}
-
-.firstsection {
-  background-color: #fff;
+section {
   padding: 20px;
-  border: 1px solid #ddd;
+  margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.firstHalf {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+section h2 {
+  margin-top: 0;
 }
 
-.text-big {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.text-small {
-  font-size: 16px;
-}
-
-.background {
+footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -62,77 +33,6 @@ body {
   clear: both;
 }
 
-.rightnav {
-  float: right;
-}
-
-.button {
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: #4CAF50;
-  color: #fff;
-}
-
-.button1:hover {
-  background-color: #3e8e41;
-}
-
-.button2 {
-  background-color: #008CBA;
-  color: #fff;
-}
-
-.button2:hover {
-  background-color: #007 bff;
-}
-
-.button3 {
-  background-color: #f44336;
-  color: #fff;
-}
-
-.button3:hover {
-  background-color: #e91e63;
-}
-
-.button4 {
-  background-color: #e7e7e7;
-  color: #333;
-}
-
-.button4:hover {
-  background-color: #ddd;
-}
-
-.button5 {
-  background-color: #3f51b5;
-  color: #fff;
-}
-
-.button5:hover {
-  background-color: #2196F3;
-}
-
-.button6 {
-  background-color: #9c27b0;
-  color: #fff;
-}
-
-.button6:hover {
-  background-color: #8e24aa;
-}
-
-.text-footer {
-  font-size: 16px;
+footer p {
+  margin: 0;
 }
