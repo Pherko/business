@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, #33ccff, #ff99cc);
 }
 
 .header {
@@ -66,17 +66,71 @@ body {
   float: right;
 }
 
-.btn {
-  background-color: #333;
+.button {
+  background-color: #4CAF50;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #444;
+.button1 {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
+
+.button2 {
+  background-color: #008CBA;
+  color: #fff;
+}
+
+.button2:hover {
+  background-color: #007 bff;
+}
+
+.button3 {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.button3:hover {
+  background-color: #e91e63;
+}
+
+.button4 {
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.button4:hover {
+  background-color: #ddd;
+}
+
+.button5 {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.button5:hover {
+  background-color: #2196F3;
+}
+
+.button6 {
+  background-color: #9c27b0;
+  color: #fff;
+}
+
+.button6:hover {
+  background-color: #8e24aa;
 }
 
 .text-footer {
