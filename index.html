@@ -2,28 +2,47 @@
 <html>
 <head>
   <title>Business Website</title>
-  <link rel="stylesheet" type ="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="logo">
+      <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" style="height: 30px;" alt="Logo">
+    </div>
+    <ul class="nav-list">
+      <li><a href="#web">Web Technology</a></li>
+      <li><a href="#program">C Programming</a></li>
+      <li><a href="#course">Courses</a></li>
+    </ul>
+    <div class="rightnav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
   </header>
-  <main>
-    <section>
-      <h1>Welcome to our Business Website</h1>
-      <p>This is a sample business website with cool looking buttons, menu bar, and background.</p>
-      <button>Learn More</button>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Business Website</p>
+  <section class="firstsection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <h1 class="text-big" id="web">Web Technology</h1>
+        <p class="text-small">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language.</p>
+      </div>
+    </div>
+  </section>
+  <section class="secondsection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <h1 class="text-big" id="program">C Programming</h1>
+        <p class="text-small">C is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming language to write operating system.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="paras">
+      <h1 class="sectionTag text-big">Java</h1>
+      <p class="sectionSubTag text-small">Java has been one of the most popular programming language for many years. Java is Object Oriented.</p>
+    </div>
+  </section>
+  <footer class="background">
+    <p class="text-footer">Copyright &copy; 2024 Business Website</p>
   </footer>
 </body>
 </html>
