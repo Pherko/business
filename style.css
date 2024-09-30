@@ -31,7 +31,7 @@ section {
   margin: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  max-width: calc(50% - 40px);
+  max-width: calc(40% - 40px);
   height: 300px; /* Increased section height */
 }
 
